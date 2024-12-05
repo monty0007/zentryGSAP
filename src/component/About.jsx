@@ -12,18 +12,21 @@ const About = () => {
         const clipAnimation = gsap.timeline({
             scrollTrigger: {
                 trigger: '#clip',
+                // start: '-13% 0%',
                 start: 'center center',
                 end: '+=800 center',
                 scrub: 0.5,
                 pin: true,
                 pinSpacing: true,
+                // markers: true,
             }
         })
 
         clipAnimation.to('.mask-clip-path', {
-            width: '100vw',
             height: '100vh',
-            borderRadius: 0,
+            width: '100vw',
+            // y: "-13vh",
+            borderRadius: 0
         })
     })
 
