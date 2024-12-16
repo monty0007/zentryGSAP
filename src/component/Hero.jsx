@@ -144,7 +144,7 @@ export const Hero = () => {
                 </div>
             </div>
         </div>
-        <h1 className="special-font hero-heading absolute bottom-5 right-5text-black">G<b>A</b>MING
+        <h1 className="special-font hero-heading absolute bottom-5 right-5text-black">G<b>A</b>MI<b>N</b>G
             </h1>
     </div>
   )
