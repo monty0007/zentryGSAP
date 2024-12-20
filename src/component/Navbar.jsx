@@ -19,7 +19,7 @@ const NavBar = () => {
 
   const { y: currentScrollY } = useWindowScroll();
   // console.log('y',y);
-  console.log('css',currentScrollY);
+  // console.log('css',currentScrollY);
   const [isNavVisible, setIsNavVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
