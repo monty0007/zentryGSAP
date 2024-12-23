@@ -20,7 +20,7 @@ const Story = () => {
 
 
   const handleMouseMove=(e)=>{
-    console.log(e);
+    // console.log(e);
     const {clientX, clientY}=e
     const element = frameRef.current
 
