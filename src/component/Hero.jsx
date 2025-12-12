@@ -43,7 +43,7 @@ export const Hero = () => {
             if (isLoading) {
                 setIsLoading(false);
             }
-        }, 5000); // 5 seconds timeout
+        }, 2000); // 2 seconds timeout
 
         return () => clearTimeout(timer);
     }, [isLoading]);
